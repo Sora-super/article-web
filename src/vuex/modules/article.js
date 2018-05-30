@@ -27,7 +27,6 @@ const actions = {
 const mutations = {
   [GET_ARTICLE_LIST] (state, moduleArticleList) {
     if (Array.isArray(moduleArticleList) && moduleArticleList.length > 0) {
-      console.log(moduleArticleList)
       for (var i of moduleArticleList){
         var a = new Date(i.time)
         i.time=a.toLocaleString()      

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <ul>
-      <li v-for="(item,index) in articleList" :key="index">
+      <li v-for="(item,index) in articleList" :key="index" class="article_li">
         <h1 class="title">{{item.title}}</h1>
         <p class="author">{{item.author}}</p>
         <p class="con">{{item.content}}</p>
@@ -37,6 +37,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.article_li{
+  margin: 20px 0;
+}
 .title{
   font-size: 34px;
   font-weight: 700;
@@ -50,5 +53,6 @@ export default {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
+  padding: 0 50px;
 }
 </style>
