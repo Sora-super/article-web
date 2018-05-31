@@ -16,6 +16,7 @@ const actions = {
       if (response.status === 200) {
         const res = response.data
         if (res.code === 200) {
+          console.log(res.msg)
           commit(GET_ARTICLE_LIST, res.msg)
         }
       }

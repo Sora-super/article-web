@@ -4,7 +4,7 @@
       <li v-for="(item,index) in articleList" :key="index" class="article_li">
         <h1 class="title">{{item.title}}</h1>
         <p class="author">{{item.author}}</p>
-        <p class="con">{{item.content}}</p>
+        <p class="con" v-html="item.content"></p>
         <p class="date">{{item.time}}</p>
       </li>
     </ul>
@@ -54,5 +54,11 @@ export default {
   font-weight: 400;
   line-height: 1.7;
   padding: 0 50px;
+  display: inline-block;
+  text-align: left;
+}
+.date{
+  text-align: right;
+  margin-right: 50px;
 }
 </style>
