@@ -18,7 +18,9 @@ export default {
 ul,li{
   list-style: none;
 }
-a{text-emphasis: none;}
+a{
+  text-decoration: none;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
