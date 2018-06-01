@@ -36,29 +36,32 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.article_li{
-  margin: 20px 0;
+<style scoped lang="scss">
+.hello{
+  .article_li{
+    margin: 20px 0;
+  }
+  .title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .author{
+    color: #333;
+    font-size: 18px;
+  }
+  .con{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 0 50px;
+    display: inline-block;
+    text-align: left;
+  }
+  .date{
+    text-align: right;
+    margin-right: 50px;
+  }
 }
-.title{
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 1.3;
-}
-.author{
-  color: #333;
-   font-size: 18px;
-}
-.con{
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.7;
-  padding: 0 50px;
-  display: inline-block;
-  text-align: left;
-}
-.date{
-  text-align: right;
-  margin-right: 50px;
-}
+
 </style>
