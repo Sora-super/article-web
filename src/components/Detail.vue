@@ -41,6 +41,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .hello{
+  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
   width:666px;
   margin: 0 auto;
   .article_li{
@@ -65,6 +66,7 @@ export default {
     padding: 0 50px;
     display: inline-block;
     text-align: left;
+    color: #2f2f2f;
   }
   .date{
     text-align: right;
