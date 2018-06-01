@@ -18,14 +18,14 @@ export default {
   data() {
     return {
       msg: "Welcome to Your Vue.js App",
-      id:0 
+      id: 0
     };
   },
   mounted() {
     this.getarticleList();
-    console.log()
+
     this.id = this.$route.params.id
-    console.log(this.id)
+
   },
   methods: {
     ...mapActions(["getarticleList"])

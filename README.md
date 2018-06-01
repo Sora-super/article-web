@@ -10,7 +10,9 @@
 3.   router-link
 
 
-----------------------------访问本地的接口 修改config/index------proxyTable  转接端口 
+----------------------------  Question
+1>>访问本地的接口 修改config/index------proxyTable  转接端口 
+2>>数据库拿出来数据 换行会直接显示<br/> 页面上使用 v-html 
 ```
 
 

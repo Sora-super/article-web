@@ -43,7 +43,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .mainCon {
   width: 30%;
   margin: 30px auto 0;
